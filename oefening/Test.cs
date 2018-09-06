@@ -133,9 +133,9 @@ namespace Tests
 		[Test]
 		public void Test_Som3()
 		{
-			Assert.That(First.Oef3.Som3(2.3, 4.3), Is.EqualTo(6.6));
-			Assert.That(First.Oef3.Som3(13, 0.1), Is.EqualTo(13.1));
-			Assert.That(First.Oef3.Som3(4.2F, 1).GetType() == typeof(int), Is.EqualTo(true));
+			Assert.That(First.Oef3.Som3(2.3, 4.3), Is.EqualTo(6.6F));
+			Assert.That(First.Oef3.Som3(13, 0.1), Is.EqualTo(13.1F));
+			Assert.That(First.Oef3.Som3(4.2F, 1).GetType() == typeof(float), Is.EqualTo(true));
 		}
 	}
 
