@@ -1,4 +1,4 @@
-using System;
+3using System;
 
 namespace First
 {
@@ -58,7 +58,7 @@ namespace First
 
 			Console.WriteLine("Naam Oefening  \t Verwacht Resultaat \t Jouw Resultaat");
 			Console.WriteLine("ToString \t xy \t\t\t" + Oef4.ToString('x', 'y'));
-			Console.WriteLine("BerekenWaarde \t 2.97 \t\t\t" + Oef4.BerekenWaarde(0.99F, 1));
+			Console.WriteLine("BerekenWaarde \t 2.97 \t\t\t" + Oef4.BerekenWaarde(0.99F, 3));
 			Console.WriteLine("BerekenOmtrek \t 12.27 \t\t\t" + Oef4.BerekenOmtrek(2));
 			Console.WriteLine("BerekenOppervlak 6 \t\t\t" + Oef4.BerekenOppervlak(2, 3));
 
