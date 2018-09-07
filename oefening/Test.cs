@@ -28,13 +28,13 @@ namespace Tests
 		[Test] 
 		public void Test_InitFloat()
 		{
-			Assert.That(First.Oef1.InitFloat(), Is.EqualTo(3.14));
+			Assert.That(First.Oef1.InitFloat(), Is.EqualTo(3.14F));
 		}
 
 		[Test]
 		public void Test_Prijs()
 		{
-			Assert.That(First.Oef1.Prijs(), Is.EqualTo(1.99));
+			Assert.That(First.Oef1.Prijs(), Is.EqualTo(1.99F));
 		}
 
 		[Test]
