@@ -90,8 +90,8 @@ namespace Tests
 		[Test]
 		public void Test_Naam2()
 		{
-			Assert.That(First.Oef2.Naam1("Test", "Name"), Is.EqualTo("Test Name"));
-			Assert.That(First.Oef2.Naam1("Abc", "Xyz"), Is.EqualTo("Abc Xyz"));
+			Assert.That(First.Oef2.Naam2("Test", "Name"), Is.EqualTo("Test Name"));
+			Assert.That(First.Oef2.Naam2("Abc", "Xyz"), Is.EqualTo("Abc Xyz"));
 		}
 	}
 
