@@ -3,59 +3,54 @@ using NUnitLite;
 
 namespace Tests
 {
+    // eerste oefening staat op 21 punten
 	[TestFixture]
 	public class TestOef1
 	{
-		// deze functie is nodig om de testen achteraf via de webinterface uit te voeren
-		public static int Run(string resultPath)
+		[Test]
+		public void Test01_InitInt1()
 		{
-			string[] args = { "--work=" + resultPath };
-			return new AutoRun().Execute(args);
+			Assert.That(First.Oef1.InitInt1(), Is.EqualTo(7), "3: Het getal is niet gelijk aan 7");
 		}
 
 		[Test]
-		public void Test_InitInt1()
+		public void Test02_InitInt2()
 		{
-			Assert.That(First.Oef1.InitInt1(), Is.EqualTo(7));
-		}
-
-		[Test]
-		public void Test_InitInt2()
-		{
-			Assert.That(First.Oef1.InitInt2(), Is.EqualTo(-1));
+			Assert.That(First.Oef1.InitInt2(), Is.EqualTo(-1), "3: Deze som klopt niet");
 		}
 
 		[Test] 
-		public void Test_InitFloat()
+		public void Test03_InitFloat()
 		{
-			Assert.That(First.Oef1.InitFloat(), Is.EqualTo(3.14));
+			Assert.That(First.Oef1.InitFloat(), Is.EqualTo(3.14), "3: Deze float is niet gelijk aan 3.14");
 		}
 
 		[Test]
-		public void Test_Prijs()
+		public void Test04_Prijs()
 		{
-			Assert.That(First.Oef1.Prijs(), Is.EqualTo(1.99));
+			Assert.That(First.Oef1.Prijs(), Is.EqualTo(1.99), "3: Dat is niet de juiste prijs");
 		}
 
 		[Test]
-		public void Test_InitNaam()
+		public void Test05_InitNaam()
 		{
-			Assert.That(First.Oef1.InitNaam(), Is.EqualTo("Hector"));
+			Assert.That(First.Oef1.InitNaam(), Is.EqualTo("Hector"), "3: De naam is niet 'Hector'");
 		}
 
 		[Test]
-		public void Test_InitStad()
+		public void Test06_InitStad()
 		{
-			Assert.That(First.Oef1.InitStad(), Is.EqualTo("Aarschot"));
+			Assert.That(First.Oef1.InitStad(), Is.EqualTo("Aarschot"), "3: De stad is niet 'Aarschot'");
 		}
 
 		[Test]
-		public void Test_InitChar()
+		public void Test07_InitChar()
 		{
-			Assert.That(First.Oef1.InitChar(), Is.EqualTo('a'));
+			Assert.That(First.Oef1.InitChar(), Is.EqualTo('a'), "3: Het resultaat moet de letter a zijn");
 		}
 	}
 
+    // tweede oefening staat op 25 punten
 	[TestFixture]
 	public class TestOef2
 	{
