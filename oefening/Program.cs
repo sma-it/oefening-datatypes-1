@@ -14,8 +14,8 @@ namespace First
 			Console.WriteLine("InitInt2 \t -1 \t\t\t" + Oef1.InitInt2());
 			Console.WriteLine("InitFloat \t 3,14 \t\t\t" + Oef1.InitFloat());
 			Console.WriteLine("Prijs \t\t 1,99 \t\t\t" + Oef1.Prijs());
-			Console.WriteLine("InitNaam \t Hector \t\t\t" + Oef1.InitNaam());
-			Console.WriteLine("InitStad \t Aarschot \t\t\t " + Oef1.InitStad());
+			Console.WriteLine("InitNaam \t Hector \t\t" + Oef1.InitNaam());
+			Console.WriteLine("InitStad \t Aarschot \t\t" + Oef1.InitStad());
 			Console.WriteLine("InitChar \t a \t\t\t" + Oef1.InitChar());
 
 			Console.Write("Verdergaan met Reeks 2? (Y/n)");
