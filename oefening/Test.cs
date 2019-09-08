@@ -123,7 +123,7 @@ namespace Tests
 		public void Test_Som2()
 		{
 			Assert.That(First.Oef3.Som2(2.3F, 4), Is.EqualTo(6), "5: De som is niet juist");
-			Assert.That(First.Oef3.Som2(4.5F, -6), Is.EqualTo(-1), "5: De som is niet juist");
+			Assert.That(First.Oef3.Som2(4.5F, -6), Is.EqualTo(-2), "5: De som is niet juist");
 			Assert.That(First.Oef3.Som2(4.2F, 1).GetType() == typeof(int), Is.EqualTo(true), "3: De som is juist, maar het resultaat moet een integer zijn");
 		}
 
