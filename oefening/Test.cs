@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using NUnitLite;
+using System;
 
 namespace Tests
 {
@@ -22,7 +23,7 @@ namespace Tests
 		[Test, Description("Oef 1.3 - InitFloat")] 
 		public void Test03_InitFloat()
 		{
-			Assert.That(First.Oef1.InitFloat(), Is.EqualTo(3.14), "3: Deze float is niet gelijk aan 3.14");
+			 Assert.That(Math.Round(First.Oef1.InitFloat(),2), Is.EqualTo(Math.Round(3.14F,2))); Deze float is niet gelijk aan 3.14");
 		}
 
 		[Test, Description("Oef 1.4 - Prijs")]
@@ -155,8 +156,8 @@ namespace Tests
 		[Test]
 		public void Test_BerekenOmtrek()
 		{
-			Assert.That(First.Oef4.BerekenOmtrek(3), Is.EqualTo(18.85F));
-			Assert.That(First.Oef4.BerekenOmtrek(6.2), Is.EqualTo(38.96F));
+			Assert.That(Math.Round(First.Oef4.BerekenOmtrek(3),2), Is.EqualTo(Math.Round(18.85F,2)));
+			Assert.That(Math.Round(First.Oef4.BerekenOmtrek(6.2),2), Is.EqualTo(Math.Round(38.96F,2)));
 		}
 
 		[Test] 
