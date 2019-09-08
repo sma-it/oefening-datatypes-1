@@ -23,7 +23,7 @@ namespace Tests
 		[Test, Description("Oef 1.3 - InitFloat")] 
 		public void Test03_InitFloat()
 		{
-			 Assert.That(Math.Round(First.Oef1.InitFloat(),2), Is.EqualTo(Math.Round(3.14F,2))); Deze float is niet gelijk aan 3.14");
+			 Assert.That(Math.Round(First.Oef1.InitFloat(),2), Is.EqualTo(Math.Round(3.14F,2)), "Deze float is niet gelijk aan 3.14");
 		}
 
 		[Test, Description("Oef 1.4 - Prijs")]
