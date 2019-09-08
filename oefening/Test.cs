@@ -66,7 +66,7 @@ namespace Tests
 		public void Test02_Som2()
 		{
 			Assert.That(First.Oef2.Som2(3.1F, 5.4F), Is.EqualTo(8.5F), "5: Je som is niet correct");
-			Assert.That(First.Oef2.Som2(1.0F, -2.1F), Is.EqualTo(-1.1F), "5: Je som is niet correct");
+			Assert.That(Math.Round(First.Oef2.Som2(1.0F, -2.1F), 1), Is.EqualTo(Math.Round(-1.1F, 1)), "5: Je som is niet correct");
 		}
 
 		[Test, Description("Oef 2.3 - Som3")]
