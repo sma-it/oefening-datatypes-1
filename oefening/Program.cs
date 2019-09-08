@@ -18,7 +18,7 @@ namespace First
             Console.WriteLine("InitStad \t Aarschot \t\t " + Oef1.InitStad());
             Console.WriteLine("InitChar \t a \t\t\t " + Oef1.InitChar());
 
-            Console.Write("Verdergaan met Reeks 2? (Y/n)");
+            Console.Write("Verdergaan met Reeks 2? (y/n)");
             if (Console.ReadKey().KeyChar == 'n') return;
 
             Console.WriteLine();
@@ -33,7 +33,7 @@ namespace First
             Console.WriteLine("Naam1 \t\t JanJanssens \t\t " + Oef2.Naam1("Jan", "Janssens"));
             Console.WriteLine("Naam2 \t\t Jan Janssens\t\t " + Oef2.Naam2("Jan", "Janssens"));
 
-            Console.Write("Verdergaan met Reeks 3? (Y/n)");
+            Console.Write("Verdergaan met Reeks 3? (y/n)");
             if (Console.ReadKey().KeyChar == 'n') return;
 
             Console.WriteLine();
@@ -48,7 +48,7 @@ namespace First
             Console.WriteLine("Som2 \t\t 4 \t\t\t " + Oef3.Som2(2.3F, 2));
             Console.WriteLine("Som3 \t\t 3,42 \t\t\t " + Oef3.Som3(1.2, 2.22));
 
-            Console.Write("Verdergaan met Reeks 4? (Y/n)");
+            Console.Write("Verdergaan met Reeks 4? (y/n)");
             if (Console.ReadKey().KeyChar == 'n') return;
 
             Console.WriteLine();
