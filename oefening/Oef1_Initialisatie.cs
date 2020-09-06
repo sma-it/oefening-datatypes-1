@@ -36,7 +36,7 @@ namespace First
 		}
 
 		/* 
-		 * Maak een variabele prijs die je gelijksteld aan 1.99 euro. Geef die prijs als functieresultaat.
+		 * Maak een variabele prijs die je gelijkstelt aan 1.99 euro. Geef die prijs als functieresultaat.
 		 */
 		public static double Prijs()
 		{
